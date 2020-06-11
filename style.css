@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+main{
+    width: 600px;
+    height: 400px;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#block-01 {
+     width: 200px;
+     height: 200px;
+}
+
+#block-02 {
+    width: 200px;
+    height: 200px;
+}
+
+#home {
+    height: 400px;
+    width: 400px;
+    background: #ffffff;
+    margin-top: 30px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+#row-boven {
+    height: 290px;
+}
+
+#rechtsboven {
+    width: 290px;
+    height: 290px;
+}
+
+#bottom-links {
+    width: 100px;
+    height: 100px;
+}
+
+#bottom-rechts {
+    height: 100px;
+    width: 40px;
+}
+
+#bottom-middel {
+    height: 100px;
+    width: 240px;
+}
+
+#lijn1 {
+    height: 290px;
+    width: 10px;
+}
+
+#lijn2 {
+    height: 10px;
+    width: 100px;
+}
+
+#lijn3 {
+    height: 10px;
+    width: 400px;
+}
+
+#lijn4 {
+    height: 100px;
+    width: 10px;
+}
+
+#lijn5 {
+    height: 10px;
+    width: 50px;
+}
+
+#lijn6 {
+    height: 100px;
+    width: 10px;
+}
+
+.rechts {
+    float: right;
+}
+
+.middel {
+    width: 100px;
+    height: 140px;
+}
+
+.klein {
+    width: 50px;
+    height: 45px;
+}
