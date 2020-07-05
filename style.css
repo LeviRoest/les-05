@@ -14,12 +14,21 @@ main{
 
 #block-01 {
      width: 200px;
-     height: 200px;
+     height: 400px;
 }
 
 #block-02 {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 400px;
+    border-left: black;
+    border-right: black;
+    border-style: hidden solid hidden solid;
+    border-width: 10px;
+}
+
+#block-03 {
+    width: 150px;
+    height: 400px;
 }
 
 #home {
@@ -31,6 +40,10 @@ main{
 
 .red {
     background-color: red;
+}
+
+.white {
+    background-color: white;
 }
 
 .blue {
